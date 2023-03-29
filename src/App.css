@@ -1,23 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
 .App {
   text-align: center;
 }
-.home{
-    color:red ;
-    text-decoration: none;
+body {
+  /* background-color: lightblue; */
+}
+.icon {
+  font-size: 50px;
+}
+.nav a {
+  color: rgb(143, 17, 17);
+  text-decoration: none;
 }
 
-.name{
-  width: 40%;
-  align-items: left;
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
 }
-.navbar{
-  
-  color: red;
+
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  color: rgb(143, 17, 17);
+  /* background-color: blueviolet; */
   height: 15vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  
+}
+
+.home:hover {
+  color: black;
+  transition: ease-in-out;
+  transform: -translate-y-2;
 }

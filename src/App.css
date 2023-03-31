@@ -11,7 +11,7 @@ body {
   
 }
 .heading-primary{
- 
+    
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -26,8 +26,9 @@ body {
 }
 .heading-secondary{
   background-color: #0b708f;
-  height: 50px;
+  height: 40px;
   color:white;
+  margin-top: 80px; /* this to avoid overlapping as navbar is fixed on top*/
 }
 
 .hr{
@@ -53,6 +54,7 @@ a {
   font-family: "Delicious Handrawn";
   font-size: 70px;
   font-style: cursive;
+ 
 }
 .header{
   height: 20px;
@@ -74,19 +76,24 @@ h5{
   color: rgb(143, 17, 17);
   /* background-color: blueviolet; */
  padding: 0;
- margin: 0;
+ margin: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .menu-item:hover {
   /* background-color: #333; */
+  background: #0b708f;
+  color: white;
   position: relative;
-  height: 60px;
-  transition: height 0.3s ease-in-out;
+  /* height: 60px; */
+  /* transition:  1s ease-in-out; */
 }
 
 .project-card {
@@ -135,5 +142,8 @@ color:white;
  
 }
 
-
+.project-carousel{
+  height: 300px;
+  width: 500px;
+}
 

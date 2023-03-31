@@ -1,34 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Great+Vibes&family=Mynerve&display=swap');
 .App {
   text-align: center;
 }
 body {
-  /* background-color: lightblue; */
+  background: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
+.heading-primary{
+ 
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color:#0b708f;
+    font-weight: 800;
+    margin: 100px 200px;
+    font-family: "mynerve";
+    display: flex;
+    justify-content: left;
+
+}
+.heading-secondary{
+  background-color: #0b708f;
+  height: 50px;
+  color:white;
+}
+
+.hr{
+  font-weight: bolder;
+}
+
+
 .icon {
-  font-size: 50px;
+  color: black;
 }
-.nav a {
-  color: rgb(143, 17, 17);
+
+a {
+  color: #02252f;
   text-decoration: none;
+  
 }
 
 .logo {
   width: 20%;
   display: flex;
   justify-content: flex-start;
+  color: #02252f;
+  font-family: "Delicious Handrawn";
+  font-size: 70px;
+  font-style: cursive;
 }
-
+.header{
+  height: 20px;
+  margin-top: 10px;
+}
 .nav {
+ 
   width: 50%;
   display: flex;
   justify-content: space-between;
+  float: left;
 }
+h5{
+  color:#0b708f;
+}
+
 .navbar {
+  
   color: rgb(143, 17, 17);
   /* background-color: blueviolet; */
-  height: 15vh;
+ padding: 0;
+ margin: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -36,8 +82,58 @@ body {
   font-weight: bold;
 }
 
-.home:hover {
-  color: black;
-  transition: ease-in-out;
-  transform: -translate-y-2;
+.menu-item:hover {
+  /* background-color: #333; */
+  position: relative;
+  height: 60px;
+  transition: height 0.3s ease-in-out;
 }
+
+.project-card {
+  background-color:#0b708f;
+  border: none;
+  color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card-image {
+  height: 250px;
+  object-fit: cover;
+}
+
+.project-card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-card-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-button {
+  margin-right: 1rem;
+  color: white;
+  background-color: #02252f;
+}
+.project-button a{
+color:white;
+}
+
+.footer{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.footer hr {
+  height: 4px;
+  background-color:black;
+ 
+}
+
+
+

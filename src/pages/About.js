@@ -1,6 +1,6 @@
 function About(){
     return(
-        <h2>About</h2>
+        <h2 className="heading-secondary">About</h2>
     )
 }
 

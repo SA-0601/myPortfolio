@@ -7,12 +7,14 @@ import About from './pages/About';
 // import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-
+import Footer from './components/Footer';
+import Header from "./components/Header";
 
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <NavBar />
 
       <Routes>
@@ -22,6 +24,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

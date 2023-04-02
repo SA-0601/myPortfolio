@@ -1,20 +1,22 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
-import './App.css';
-import NavBar from './components/NavBar';
-import Home from './pages/Home';
-import About from './pages/About';
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
+import About from "./pages/About";
 // import Experience from './pages/Experience';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import Footer from './components/Footer';
-import Header from "./components/Header";
-
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
+import Quote from "./components/Quote";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <h4>Quote of the Day</h4>
+
+      <Quote />
+
       <NavBar />
 
       <Routes>

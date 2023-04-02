@@ -26,9 +26,17 @@ export const projects = [
       {
         id:4,
         title: "To Do List",
-        image: "../images/codingcontests.png",
+        image: "https://i.postimg.cc/sfQ7sSyM/Screen-Shot-04-01-23-at-09-15-24-PM.png",
         skills: "HTML,CSS,JavaScript",
-        githubURL: "https://github.com/SA-0601/react-myapp-contests.git",
-        livelink: "https://codingcontestsapi.netlify.app"
+        githubURL: "https://github.com/SA-0601/todoapp",
+        livelink: "https://todoappbyshubha.netlify.app/"
+      },
+      {
+        id:5,
+        title: "Portfolio",
+        image: "https://i.postimg.cc/xjBHCP3w/Screen-Shot-04-01-23-at-10-37-01-PM.png",
+        skills: "HTML,CSS,JavaScript",
+        githubURL: "https://github.com/SA-0601/shubha-github.io.git",
+        livelink: "https://shubha-prework-portfolio.netlify.app"
       }
   ]

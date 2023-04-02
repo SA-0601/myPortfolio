@@ -28,10 +28,7 @@ function Projects() {
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  {/* <Card.Link href={ele.livelink}>Live Link</Card.Link>
-                  <Card.Link href={ele.githubURL}>GitHub</Card.Link> */}
                   <Button className="project-button"><a target="_blank" rel="noreferrer" href={ele.livelink}>Live Link</a></Button>
-                  
                   <Button className="project-button"><a target="_blank" rel="noreferrer" href={ele.githubURL}>GitHub</a></Button>
                 </Card.Body>
               </Card>

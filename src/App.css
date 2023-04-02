@@ -1,103 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Great+Vibes&family=Mynerve&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Great+Vibes&family=Mynerve&display=swap");
 .App {
   text-align: center;
 }
 body {
-  background: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed; 
+  background: url("https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
 }
-.heading-primary{
-    
-    font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    color:#0b708f;
-    font-weight: 800;
-    margin: 100px 200px;
-    font-family: "mynerve";
-    display: flex;
-    justify-content: left;
-
+.home-container{
+display: flex;
+flex-direction: row;
 }
-.heading-secondary{
+.home-content {
+   font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #0b708f;
+  font-weight: 800;
+  margin: 100px 200px;
+  font-family: "mynerve";
+  display: flex;
+  justify-content: left;
+}
+.home-image{
+  height: 40rem;
+  width:80rem;
+}
+.heading-secondary {
   background-color: #0b708f;
   height: 40px;
-  color:white;
-  margin-top: 80px; /* this to avoid overlapping as navbar is fixed on top*/
+  color: white;
 }
 
-.hr{
+.hr {
   font-weight: bolder;
 }
 
-
 .icon {
   color: black;
+  font-size: 1.8em;
+  margin-left: 3px;
+
+}
+p{
+  color:#02252f;
+  font-weight: bold;
 }
 
 a {
   color: #02252f;
   text-decoration: none;
-  
 }
-
-.logo {
-  width: 20%;
+.logoimage {
+  height: 70px;
+  margin-left: 5rem;
+  margin-right: 30rem;
+}
+.logofont {
+  width: 40%;
   display: flex;
+  margin-left: 5rem;
   justify-content: flex-start;
   color: #02252f;
   font-family: "Delicious Handrawn";
   font-size: 70px;
   font-style: cursive;
- 
 }
-.header{
-  height: 20px;
+.quote-class {
+  height: 30px;
   margin-top: 10px;
 }
 .nav {
- 
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   float: left;
+  transition: transform 0.3s ease-in-out;
 }
-h5{
-  color:#0b708f;
+h5 {
+  color: #0b708f;
+}
+h4 {
+  height: 1rem;
+  margin-top: 5px;
 }
 
-.navbar {
-  
+.project-navbar {
   color: rgb(143, 17, 17);
   /* background-color: blueviolet; */
- padding: 0;
- margin: 30px;
+  padding: 0;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   font-size: 1.5rem;
   font-weight: bold;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
 }
 
-.menu-item:hover {
+.nav a:hover {
   /* background-color: #333; */
-  background: #0b708f;
-  color: white;
+  /* background: #0b708f; */
+  color: #0b708f;
   position: relative;
-  /* height: 60px; */
-  /* transition:  1s ease-in-out; */
+  /* height: 6rem; */
+  transform: translateY(-10px);
 }
 
 .project-card {
-  background-color:#0b708f;
+  background-color: #0b708f;
   border: none;
   color: #ffffff;
   transition: transform 0.3s ease-in-out;
@@ -128,22 +142,84 @@ h5{
   color: white;
   background-color: #02252f;
 }
-.project-button a{
-color:white;
+.project-button a {
+  color: white;
 }
 
-.footer{
+.footer {
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .footer hr {
-  height: 4px;
-  background-color:black;
- 
+  height: 3px;
+  background-color: black;
 }
 
-.project-carousel{
-  height: 300px;
-  width: 500px;
+.project-carousel {
+  height: 50rem;
+  width: 90rem;
 }
 
+.proj-carousel-img{
+  height: 50rem;
+  width: 90rem;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  background: url("./images/Thankyou.jpg")
+  no-repeat;
+  height: 30rem;
+  background-size: cover;
+  background-position:center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items:flex-start;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+}
+.image-container{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+label {
+  display: flex;
+  width: 30rem;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color:#0b708f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color:#02252f;
+}

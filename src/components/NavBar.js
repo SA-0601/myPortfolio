@@ -1,21 +1,22 @@
 
 import { Link } from "react-router-dom";
-// import logo from "../images/apple-touch-icon.png";
+import logo from "../images/apple-touch-icon.png";
+import { Navbar, Container } from "react-bootstrap";
 
 function NavBar() {
   return (
     <div>
-      <navbar className="navbar">
-        <p  className="logo">SA</p>
-        {/* <img src={logo} alt="logo" height={70}></img> */}
-        <div className="nav">
-        <Link to="/"><div className="menu-item">Home</div></Link>
-        <Link to="/about"><div className="menu-item">About</div></Link>
+      <Navbar className="project-navbar">
+        {/* <p  className="logofont">SA</p> */}
+        <img className="logoimage" src={logo} alt="logo" height={70}></img>
+        <Container className="nav">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
         {/* <Link to="/experience">Experience</Link> */}
-        <Link to="/projects"><div className="menu-item">Projects</div></Link>
-        <Link to="/contact"><div className="menu-item">Contact</div></Link>
-        </div>
-      </navbar>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+        </Container>
+      </Navbar>
     </div>
   );
 }

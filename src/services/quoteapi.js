@@ -1,12 +1,9 @@
-    //if you want to hide your api key
-    const apiKey = process.env.REACT_APP_API_KEY;
-
 //fetch data from API
-export const getTechNews = async () => {
+export const getQuote = async () => {
     //make fetch request and store response
     try {
       const response = await fetch(
-        `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKey}`
+        `https://dummyjson.com/quotes`
       );
       const data = await response.json();
         return data;

@@ -10,7 +10,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-.home-container{
+/* .home-container{
 display: flex;
 flex-direction: row;
 }
@@ -25,13 +25,10 @@ flex-direction: row;
   font-family: "mynerve";
   display: flex;
   justify-content: left;
-}
-.home-image{
-  height: 40rem;
-  width:80rem;
-}
+} */
+
 .heading-secondary {
-  background-color: #0b708f;
+  background-color: #002B5B;
   height: 40px;
   color: white;
 }
@@ -40,10 +37,14 @@ flex-direction: row;
   font-weight: bolder;
 }
 
+.about-skills{
+  height: 1rem;
+  width: 1rem;
+}
 .icon {
   color: black;
   font-size: 1.8em;
-  margin-left: 3px;
+  margin-left: 5px;
 
 }
 p{
@@ -83,11 +84,12 @@ a {
   transition: transform 0.3s ease-in-out;
 }
 h5 {
-  color: #0b708f;
+  color: #002B5B;
 }
 h4 {
   height: 1rem;
   margin-top: 5px;
+  color: #002B5B;
 }
 
 .project-navbar {
@@ -111,7 +113,7 @@ h4 {
 }
 
 .project-card {
-  background-color: #0b708f;
+  background-color: #635985;
   border: none;
   color: #ffffff;
   transition: transform 0.3s ease-in-out;
@@ -140,12 +142,15 @@ h4 {
 .project-button {
   margin-right: 1rem;
   color: white;
-  background-color: #02252f;
+  background-color: #002B5B;
 }
 .project-button a {
   color: white;
 }
-
+.card-text{
+  color:white;
+  font-weight: normal;
+}
 .footer {
   font-weight: bold;
   margin-bottom: 20px;
@@ -155,20 +160,79 @@ h4 {
   background-color: black;
 }
 
-.project-carousel {
-  height: 50rem;
-  width: 90rem;
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* align-items:flex-end; */
+  justify-content: center;
+  width:100%;
+  height: 70vh;
+ 
 }
 
-.proj-carousel-img{
-  height: 50rem;
-  width: 90rem;
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  margin-left:0;
 }
+
+.home-content h2 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.home-content h4 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  
+  gap: 20px;
+}
+
+button {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  background-color: #002B5B;
+  
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #524abf;
+}
+
+.home-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:0px;
+}
+
+.home-image img {
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
 
 .contact-container{
   display: flex;
   flex-direction: row;
-  background: url("./images/Thankyou.jpg")
+  background: url("./images/thank.jpg")
   no-repeat;
   height: 30rem;
   background-size: cover;
@@ -181,20 +245,20 @@ h4 {
   text-align: left;
   align-items:flex-start;
   width: 50%;
-  margin: 0 auto;
+  margin-left:50px;
   padding: 20px;
   /* border: 1px solid #ccc; */
   border-radius: 5px;
 }
-.image-container{
+/* .image-container{
   display: flex;
   flex-direction: column;
   width: 50%;
-}
+} */
 
 label {
   display: flex;
-  width: 30rem;
+  width: 25rem;
   flex-direction: column;
   margin-bottom: 10px;
   font-weight: bold;
@@ -212,7 +276,7 @@ textarea {
 }
 
 button[type="submit"] {
-  background-color:#0b708f;
+  background-color:#002B5B;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -223,3 +287,65 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color:#02252f;
 }
+
+.about-class {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  justify-content: flex-end;
+  width:100%;
+  height:25rem;
+  margin-top: 100px;
+}
+
+.about-description {
+  width: 50%;
+  flex-basis: 40%;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.about-description p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.about-description h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.text-pink {
+  color: #ff1493;
+}
+
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  width:50%;
+  justify-content: center;
+  
+}
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+  
+}
+
+.skill-icon {
+  height: 20%;
+  width: 20%;
+  margin: 5px;
+}
+

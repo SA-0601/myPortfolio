@@ -1,5 +1,5 @@
 
-import { FaLinkedin,FaGithub,FaFacebookSquare,FaEnvelope,FaInstagram } from "react-icons/fa";
+import { FaLinkedin,FaGithub,FaFacebookSquare,FaEnvelope,FaInstagram, FaReact } from "react-icons/fa";
 
 function Footer(){
     return (
@@ -9,7 +9,7 @@ function Footer(){
       <a className='icon' target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/shubha-jindal-agrawal/"><FaLinkedin /></a>
       <a className='icon' target="_blank" rel="noreferrer" href="https://github.com/SA-0601" ><FaGithub /></a>
       <a className='icon' arget="_blank" rel="noreferrer" href="mailto:shubh.cap@gmail.com" ><FaEnvelope /></a>
-      <a className='icon' target="_blank" rel="noreferrer" href="https://www.instagram.com/agrawalshubha/" ><FaInstagram /></a>
+      <a className='icon' target="_blank" rel="noreferrer" href="https://www.instagram.com/agrawalshubha/" ><FaReact /></a>
       <a className='icon' target="_blank" rel="noreferrer" href="https://www.facebook.com/shubha.agrawal.96/" ><FaFacebookSquare /></a>
     </div>
 

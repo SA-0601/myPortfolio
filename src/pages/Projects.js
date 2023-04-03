@@ -24,9 +24,9 @@ function Projects() {
                 <Card.Img className="cardImage" variant="top" src={ele.image}/>
                 <Card.Body>
                   <Card.Title>{ele.title}</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Text className="card-text">
+                    {ele.description} in
+                    "{ele.skills}"
                   </Card.Text>
                   <Button className="project-button"><a target="_blank" rel="noreferrer" href={ele.livelink}>Live Link</a></Button>
                   <Button className="project-button"><a target="_blank" rel="noreferrer" href={ele.githubURL}>GitHub</a></Button>

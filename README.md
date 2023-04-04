@@ -2,7 +2,7 @@
 
 ## About The Project (Portfolio)
 # Deployed Project
-[Live Link for Portfolio](https://sa-0601.github.io/Wordle-game/)
+[Live Link for Portfolio](https://shubha-agrawal-portfolio.netlify.app)
 
 **Objective** 
 Wants to connect with software professionals and also to showcase my projects through my skills.
@@ -23,7 +23,7 @@ Wants to connect with software professionals and also to showcase my projects th
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
 # Quotes API
-![Quotes](https://dummyjson.com/quotes)
+[Quotes](https://dummyjson.com/quotes/)
 
 # Author & Contact
 Shubha Agrawal

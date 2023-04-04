@@ -22,8 +22,8 @@ body {
   color: #002B5B;
   font-size: 1.8em;
   margin-left: 5px;
-
 }
+
 
 .line {
   font-weight:bold;
@@ -372,14 +372,24 @@ button[type="submit"]:hover {
   width: 4rem;
   margin: 5px;
 }
+.skill-icon1:hover {
+  transform: scale(1.3);
+}
 
 .skill-icon2 {
   height: 8rem;
   width: 8rem;
   margin: 5px;
 }
+.skill-icon2:hover {
+  transform: scale(1.3);
+}
+
 .skill-icon3 {
   height: 5rem;
   width: 5rem;
   margin: 5px;
+}
+.skill-icon3:hover {
+  transform: scale(1.3);
 }

@@ -1,13 +1,14 @@
 import React from "react";
 // import thankyou from "../images/Thankyou.jpg";
+import Quote from "../components/Quote";
 
 function Contact() {
   return (
     <div>
-      <h2 className="heading-secondary">Contact</h2>
+      <h2 className="heading-secondary"><Quote /></h2>
       <div className="contact-container">
         <div className="form-container">
-          <p>Feel free to Contact me by submitting the form below and I will <br></br>get back to you as soon as possible</p>
+          <p className="form-desc">Feel free to Contact me by submitting the form below and I will <br></br>get back to you as soon as possible</p>
           <form action="https://formbold.com/s/3qDEZ" method="POST">
             <label>
               Name:

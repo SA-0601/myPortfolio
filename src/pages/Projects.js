@@ -3,12 +3,12 @@ import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-
+import Quote from "../components/Quote";
 
 function Projects() {
   return (
     <div>
-      <h2 className="heading-secondary">PROJECTS</h2>
+      <h2 className="heading-secondary"><Quote /></h2>
       <Container className="mt-5">
         <Row
           className="justify-content-center"

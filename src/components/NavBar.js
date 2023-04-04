@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import logo from "../images/apple-touch-icon.png";
+import logo from "../images/logo.png";
 import { Navbar, Container } from "react-bootstrap";
 
 function NavBar() {
@@ -8,7 +8,7 @@ function NavBar() {
     <div>
       <Navbar className="project-navbar">
         {/* <p  className="logofont">SA</p> */}
-        <img className="logoimage" src={logo} alt="logo" height={70}></img>
+        <img className="logoimage" src={logo} alt="logo"></img>
         <Container className="nav">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

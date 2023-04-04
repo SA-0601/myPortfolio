@@ -23,8 +23,8 @@ function Quote() {
     <div className="quote-class">
       <Marquee pauseOnHover speed={30}>
         {quote && (
-          <h5>
-            {selectedQuote.quote} By {selectedQuote.author}
+          <h5>Quote of the Day: 
+            "{selectedQuote.quote}" :- {selectedQuote.author}
           </h5>
         )}
       </Marquee>

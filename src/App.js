@@ -8,14 +8,14 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Quote from "./components/Quote";
+// import Quote from "./components/Quote";
 
 function App() {
   return (
     <div className="App">
-      <h4>Quote of the Day</h4>
+      {/* <h4>Quote of the Day</h4>
 
-      <Quote />
+      <Quote /> */}
 
       <NavBar />
 

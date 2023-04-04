@@ -4,19 +4,14 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-// import Experience from './pages/Experience';
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-// import Quote from "./components/Quote";
+
 
 function App() {
   return (
     <div className="App">
-      {/* <h4>Quote of the Day</h4>
-
-      <Quote /> */}
-
       <NavBar />
 
       <Routes>

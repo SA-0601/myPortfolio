@@ -16,8 +16,8 @@ function Home() {
               <button>Know More</button>
             </Link>
             <button>
-              <a href="../images/resume.pdf" download>
-                Download Resume
+              <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1j72fvMLihBOnvpTAk_ahpXX0x1DvBKa4/view?usp=sharing" download>
+                Resume
               </a>
             </button>
           </div>

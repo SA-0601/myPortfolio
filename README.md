@@ -7,6 +7,10 @@
 **Objective** 
 Wants to connect with software professionals and also to showcase my projects through my skills.
 
+# Wireframe
+
+![image](https://user-images.githubusercontent.com/122827387/229783372-ee999769-7429-47d3-bb51-68a784e6cef2.PNG)
+
 # Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 

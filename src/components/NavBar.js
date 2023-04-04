@@ -8,7 +8,9 @@ function NavBar() {
     <div>
       <Navbar className="project-navbar">
         {/* <p  className="logofont">SA</p> */}
+        <Link to="/">
         <img className="logoimage" src={logo} alt="logo"></img>
+        </Link>
         <Container className="nav">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

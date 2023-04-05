@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Great+Vibes&family=Mynerve&display=swap");
+
 .App {
   text-align: center;
 }
@@ -47,16 +47,6 @@ a {
 }
 
 
-.logofont {
-  width: 40%;
-  display: flex;
-  margin-left: 5rem;
-  justify-content: flex-start;
-  color: #02252f;
-  font-family: "Delicious Handrawn";
-  font-size: 70px;
-  font-style: cursive;
-}
 .quote-class {
   height: 30px;
   margin-top: 5px;

@@ -7,14 +7,12 @@ function NavBar() {
   return (
     <div>
       <Navbar className="project-navbar">
-        {/* <p  className="logofont">SA</p> */}
         <Link to="/">
         <img className="logoimage" src={logo} alt="logo"></img>
         </Link>
         <Container className="nav">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        {/* <Link to="/experience">Experience</Link> */}
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
         </Container>
